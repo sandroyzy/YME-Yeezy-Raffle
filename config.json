@@ -1,0 +1,16 @@
+{
+  "setup":{
+    "size":"9",
+    "fname":"??",
+    "lname":"??",
+    "city":"??",
+
+    "gmail":{
+      "my_gmail":"??@gmail.com"
+    },
+
+    "my_domain":{
+      "my_domain":"@domain.com"
+    }
+  }
+}
