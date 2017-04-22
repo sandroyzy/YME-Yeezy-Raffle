@@ -18,7 +18,7 @@ Script in Python 3 to enter multiple entries with one gmail email adress.
 <p>Open the folder you just unzipped.</p>
 </li>
 <li>
-<p>Download Python 3.6 <a href="https://www.python.org/downloads/release/python-360/">here</a></p><a href="https://www.python.org/downloads/release/python-360/" target="_blank"></a>
+<p>Download Python 3.6 <a href="https://www.python.org/downloads/release/python-360/" target="_blank"><b>here</b></a>
 </li>
 <li>
 <p>Open up a Terminal window (CMD for Windows users).</p>
@@ -35,3 +35,5 @@ Type :</ol>
 </code></pre>
 <p>Run it, follow the instructions and you are good to go.</p>
 <p><b> Enjoy Yeezys.</b></p>
+<p>
+<h2> If you have any questions - <a href="https://www.twitter.com/sandroyzy">DM ME</a> on Twitter
