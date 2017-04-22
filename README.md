@@ -27,10 +27,11 @@ Script in Python 3 to enter multiple entries with one gmail email adress.
 <p>Change the " config.json " in your folder with your infos.</p>
 </li>
 <li>
-<p>Once installed, drag & drop the whole folder (unzipped) and hit enter.</p>
+<p>Now type
+<code>cd </code> on the Terminal or CMD window. Drag & drop the whole folder (unzipped), and hit enter.</p>
 </li>
 <li>
-Type :</ol>
+You're on the right folder on your window and type :</ol>
 <pre><code>python3 YME.py
 </code></pre>
 <p>Run it, follow the instructions and you are good to go.</p>
