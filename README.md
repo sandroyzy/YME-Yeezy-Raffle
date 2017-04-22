@@ -31,7 +31,7 @@ Script in Python 3 to enter multiple entries with one gmail email adress.
 <code>cd </code> on the Terminal or CMD window. Drag & drop the whole folder (unzipped), and hit enter.</p>
 </li>
 <li>
-You're on the right folder on your window and type :</ol>
+(You're now on the right folder) - after, type :</ol>
 <pre><code>python3 YME.py
 </code></pre>
 <p>Run it, follow the instructions and you are good to go.</p>
