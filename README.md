@@ -34,6 +34,8 @@ Script in Python 3 to enter multiple entries with one gmail email adress.
 (You're now on the right folder) - after, type :</ol>
 <pre><code>python3 YME.py
 </code></pre>
+<p>If you have a message saying "No module named 'requests'. Type :
+<pre><code>pip3 install requests</code></pre></p>
 <p>Run it, follow the instructions and you are good to go.</p>
 <p><b> Enjoy Yeezys.</b></p>
 <p>
