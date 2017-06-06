@@ -1,4 +1,4 @@
-# YME Yeezy V2 Cream White Raffle Entries -- WILL BE UPDATED EVERY YEEZY RAFFLE CREATED BY YME UNIVERSE.
+# YME Yeezy V2 Cream White Raffle Entries
 Script in Python 3 to enter multiple entries with one gmail email adress.
 <p>
 <a href="https://www.ymeuniverse.com/en/blog/2017/04/21/yeezy-boost-350-v2-cream-white/">YME RAFFLE LINK</a></p>
