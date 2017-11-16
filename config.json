@@ -1,8 +1,8 @@
 {
   "setup":{
-    "input-1":"UK 9.5", #Size
+    "input-1":"UK 9.5", {"Size"}
     "name":"??", #Name
-    "input-2":"New York", #City
+    "input-2":"New York", {"City"}
 
     "gmail":{
       "my_gmail":"sandroyzy@gmail.com"
