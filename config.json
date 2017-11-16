@@ -1,12 +1,11 @@
 {
   "setup":{
-    "size":"9",
-    "fname":"??",
-    "lname":"??",
-    "city":"??",
+    "input-1":"UK 9.5", #Size
+    "name":"??", #Name
+    "input-2":"New York", #City
 
     "gmail":{
-      "my_gmail":"??@gmail.com"
+      "my_gmail":"sandroyzy@gmail.com"
     },
 
     "my_domain":{
