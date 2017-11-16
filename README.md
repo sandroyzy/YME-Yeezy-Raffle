@@ -1,4 +1,4 @@
-# YME Yeezy V2 Cream White Raffle Entries
+  # YME Yeezy V2 Frozen Yellow Raffle Entries
 Script in Python 3 to enter multiple entries with one gmail email adress.
 <p>
 <a href="https://www.ymeuniverse.com/en/blog/2017/11/15/yeezy-boost-350-v2-semi-frozen-yellow/">YME RAFFLE LINK</a></p>
