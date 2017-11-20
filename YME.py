@@ -34,13 +34,13 @@ def run(threadName):
 def setDict():
     global headers
     global postDict
-    postDict["SleeknoteId"] = "24494"  # do not change this!
+    postDict["SleeknoteId"] = "f85d95e8-52b8-4b06-a717-9cbebad1593e"  # do not change this!
     postDict["CustomerId"] = "3096"  # do not change this!
     postDict["UserAgent"] = "Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36"
-    postDict["SignupPage"] = "https://www.ymeuniverse.com/en/blog/2017/04/21/yeezy-boost-350-v2-cream-white/"
-    postDict["name"] = fname + " " + lname # do not change this!
-    postDict["Kid 20-27 or Unisex UK 4-12"] = size # do not change this!
-    postDict["Enter City"] = city # do not change this!
+    postDict["SignupPage"] = "https://www.ymeuniverse.com/en/blog/2017/11/15/yeezy-boost-350-v2-semi-frozen-yellow/"
+    postDict["name"] = name + " " # do not change this!
+    postDict["input-1"] = size # do not change this!
+    postDict["input-2"] = city # do not change this!
 
 
     headers = {
@@ -51,24 +51,23 @@ def setDict():
 	"Connection":"keep-alive",
 	"Host":"mailchimp.sleeknote.com",
 	"Pragma":"no-cache",
-	"Referer":"https://sleeknoteboxcontent.sleeknote.com/24494.html",
+	"Referer":"http://sleeknotestaticcontent.sleeknote.com/editorv2/desktoptoggler/f85d95e8-52b8-4b06-a717-9cbebad1593e.html",
 	"Upgrade-Insecure-Requests":"1",
 	"User-Agent":"Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_1) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/55.0.2883.95 Safari/537.36"
     }
 
 if __name__ == "__main__":
     success = []
-    raffleURL = "https://www.ymeuniverse.com/en/blog/2017/04/21/yeezy-boost-350-v2-cream-white/"
+    raffleURL = "https://www.ymeuniverse.com/en/blog/2017/11/15/yeezy-boost-350-v2-semi-frozen-yellow/"
     postURL = "https://mailchimp.sleeknote.com/"
     postDict = {}
     headers = {}
     firstRun = True
     with open("config.json") as f:
         configfile = json.load(f)["setup"]
-    size = configfile["size"]
-    fname = configfile["fname"]
-    lname = configfile["lname"]
-    city = configfile["city"]
+    name = configfile["name"]
+    size = configfile["input-1"]
+    city = configfile["input-2"]
     while True:
         while firstRun:
             gmailQ = input("Gmail mode or domain mode? (G/D):\t").upper()
@@ -84,7 +83,7 @@ if __name__ == "__main__":
             firstRun = False
         setDict()  # set our dictionaries
         try:
-            entries = int(input("How many threads do you want?:  (-1 to go back, 20 max advised)\t"))
+            entries = int(input("How many threads do you want ?:  (-1 to go back, 20 max advised)\t"))
             if entries == -1:
                 firstRun = True
             for i in range(entries):
@@ -93,7 +92,3 @@ if __name__ == "__main__":
             t.join()
         except ValueError:
             pass
-
-
-
-
